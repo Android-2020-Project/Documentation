@@ -1,4 +1,7 @@
 # Documentation
+https://img.shields.io/github/issues/Android-2020-Project/documentation
+https://img.shields.io/github/issues-raw/Android-2020-Project/documentation?color=red
+https://img.shields.io/github/issues-closed-raw/Android-2020-Project/documentation?color=green
 
 
 1. **[Needs Statement](https://github.com/Android-2020-Project/Documentation/blob/main/needs_statement.md)**
