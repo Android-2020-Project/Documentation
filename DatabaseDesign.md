@@ -5,6 +5,8 @@
 * Post(objectId, createdAt, updatedAt, image, description, user, likes)
 * Comments(objectId, createdAt, updatedAt, comment, user, post, likes)
 
+<img src='https://github.com/Android-2020-Project/Documentation/blob/main/DatabaseDesign.png' title='Design ScreenShot' width='' alt='ScreenShot' />
+
 | Role |
 | ---- |
 | objectId (Primary Key  String  auto-generated)|  
