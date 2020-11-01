@@ -78,8 +78,25 @@
 **Use Case #7: Display Image Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
-
-
+||1. System displays image, user's profile image that posted the image (link to user's profile, user's profile name that posted the image (link to user's profile), image's posted date, image's caption, image share button, number of shares, image save button, number of saves, image like button, number of likes, comments made by other users about the image, number of comments, text input window for comment to be added, button to submit comment|
+|2. User clicks on share button||
+||3. System creates a copy of image into database|
+||4. System displays shared image as organic to user's feed|
+||5. System adds share to total shares of image
+||6. System changes state of share button on user's screen|
+|7. User clicks on save button||
+||8. System creates an instance of save into database|
+||9. System adds save to total saves of image
+||10. System changes state of save button on user's screen
+|11. User clicks on like button||
+||12. System creates an instance of like into database|
+||13. System adds like to total likes of image
+||14. System changes state of like button on user's screen
+|15. User inputs text into input dialog for new comment||
+|16. User clicks on submit button||
+||17. System scans for 'tagged' users|
+||18. System alerts user of new tag|
+||19. System creates an instance of comment into database|
 
 ---
 **Use Case #8: Create Story Screen**
@@ -97,6 +114,9 @@
 **Use Case #10: Search Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+|| 1. System displays popular search topics|
+|2. User conducts search using **Top Search Bar** ||
+||3. System displays search results|
 
 ---
 **Use Case #11: Top Search Bar**
@@ -123,14 +143,14 @@
 **Use Case #13: Liked Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
-5.1. Users can view only the image submitted to application that they ‘liked’
+|| 1. System displayed images the user liked|
 
 
 ---
 **Use Case #14: Profile Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
-8.8. Users can view the latest 18 images submitted by the user
+||1. System displays the latest 18 images submitted by the user|
 
 
 ---
@@ -148,8 +168,3 @@
 8.9. Users can edit own profile screen
 8.10. Users can promote their own stories
 8.11. Users can select story categories
-
----
-**Use Case #16: Additional Functions**
-|Actor(User) Actions |System Reponses|
-|--------------------|---------------|
