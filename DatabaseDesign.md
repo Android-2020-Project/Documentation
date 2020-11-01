@@ -1,4 +1,4 @@
-# InstaGram Clone  *Database Schema*
+# Instagram Clone  *Database Schema*
 
 * Role(objectId, createdAt, updatedAt, name, users, roles)
 * User(objectId, createdAt, updatedAt, username, email, password, emailVerified)
