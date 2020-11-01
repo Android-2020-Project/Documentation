@@ -17,7 +17,7 @@
 ||10b. 3rd party passes validiation to system|
 ||11b. System displays **Home Screen**|
 
-
+---
 **Use Case #2: Password Reset Verification Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
@@ -28,7 +28,7 @@
 |5. User clicks on link in email??||
 ||6. System redisplays **Recover Password Screen**
 
-
+---
 **Use Case #3: Recover Password Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
@@ -39,7 +39,7 @@
 ||5. New password saved to profile in database|
 ||6. System redisplays **Login Screen**
 
-
+---
 **Use Case #4: Bottom Menu Bar**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
@@ -54,6 +54,7 @@
 |9. User can select profile screen||
 ||10. System displays **Profile Screen** with **Bottom Menu Bar** and **Profile Top Bar**|
 
+---
 **Use Case #5: Home Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
@@ -64,6 +65,7 @@
 |5. User can tap on a submitted image in the feed|
 ||6. System displays image in **Display Image Screen**
 
+---
 **Use Case #6: Top Menu Bar**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
@@ -72,61 +74,82 @@
 |3. User can select direct messaging screen|
 ||4. System displays **Direct Messaging Screen**|
 
-
+---
 **Use Case #7: Display Image Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
 
 
 
-
+---
 **Use Case #8: Create Story Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
 
+
+---
 **Use Case #9: Direct Messaging Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
 
 
-
+---
 **Use Case #10: Search Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
 
-
+---
 **Use Case #11: Top Search Bar**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+3.1. Users can search for specific posts
+3.2. Users can search for a category of posts (Hashtags)
+3.3. Users can search for other users
 
-
-
-
+---
 **Use Case #12: Create Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+7.1. Users can take a photo utilizing the phone’s camera
+7.2. Users can modify photo by cropping, changing vibrancy, hue, etc.
+7.3. Users can ‘tag’ other users within photo
+7.4. Users can add a 150 character caption
+7.5. Users can ’tag’ other users within caption
+7.6. Users can share the image to application
+7.7. Users can share an ‘important’ image to application
+7.8. Progress bar shows progress of upload
 
-
-
+---
 **Use Case #13: Liked Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+5.1. Users can view only the image submitted to application that they ‘liked’
 
 
-
+---
 **Use Case #14: Profile Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+8.8. Users can view the latest 18 images submitted by the user
 
 
-
+---
 **Use Case #15: Profile Top Bar**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+8. User Profile Screen 
+8.1. Users can view user’s profile image
+8.2. Users can view user’s 150 character profile description
+8.3. Users can view number of posts by the user
+8.4. Users can view number of followers of the user
+8.5. Users can view number of other users user follows
+8.6. Users can view user’s stories 
+8.7. Users can contact user
+8.9. Users can edit own profile screen
+8.10. Users can promote their own stories
+8.11. Users can select story categories
 
-
-
-
+---
 **Use Case #16: Additional Functions**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
