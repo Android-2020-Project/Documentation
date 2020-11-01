@@ -58,15 +58,22 @@
 **Use Case #5: Home Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
-||1. System displays last 20 images submitted to application by user and users that the user is following|
+||1. System displays last 20 images submitted to application by user and users that the user is following, **Bottom Menu Bar**, **Story Bar**, and **Top Menu Bar**|
 |2. User can scroll through feed||
-|3. User can pull to refresh feed||
+|3. User can pull down to refresh feed||
 ||4. System refreshes the last 20 images submitted to application by user and users user is following|
 |5. User can tap on a submitted image in the feed|
-||6. System displays image in **Display Image Screen**
+||6. System displays image in **Display Image Screen**|
 
 ---
 **Use Case #6: Top Menu Bar**
+|Actor(User) Actions |System Reponses|
+|--------------------|---------------|
+
+
+
+---
+**Use Case #7: Top Menu Bar**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
 |1. User can select create story screen||
@@ -75,7 +82,7 @@
 ||4. System displays **Direct Messaging Screen**|
 
 ---
-**Use Case #7: Display Image Screen**
+**Use Case #8: Display Image Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
 ||1. System displays image, user's profile image that posted the image (link to user's profile, user's profile name that posted the image (link to user's profile), image's posted date, image's caption, image share button, number of shares, image save button, number of saves, image like button, number of likes, comments made by other users about the image, number of comments, text input window for comment to be added, button to submit comment|
@@ -98,16 +105,12 @@
 ||18. System alerts user of new tag|
 ||19. System creates an instance of comment into database|
 
----
-**Use Case #8: Create Story Screen**
-|Actor(User) Actions |System Reponses|
-|--------------------|---------------|
-
 
 ---
 **Use Case #9: Direct Messaging Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+||
 
 
 ---
@@ -122,9 +125,11 @@
 **Use Case #11: Top Search Bar**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
-3.1. Users can search for specific posts
-3.2. Users can search for a category of posts (Hashtags)
-3.3. Users can search for other users
+||1. System displays input diaglog and submit button|
+|2. User types in search parameters ||
+|3. User clicks on submit button|
+||4. System searches database for results|
+||5. System returns results to **Search Screen**|
 
 ---
 **Use Case #12: Create Screen**
@@ -143,20 +148,30 @@
 **Use Case #13: Liked Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
-|| 1. System displayed images the user liked|
+||1. System displays last 20 images liked by user, **Bottom Menu Bar**, **Story Bar**,  and **Top Menu Bar**|
+|2. User can scroll through feed||
+|3. User can pull up to retrieve additional images to the feed||
+||4. System load an additional 20 images liked by user|
+|5. User can tap on a liked image in the feed|
+||6. System displays image in **Display Image Screen**|
 
 
 ---
 **Use Case #14: Profile Screen**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
-||1. System displays the latest 18 images submitted by the user|
-
+||1. System displays the latest 18 images submitted by the user, **Profile Top Bar** and **Story Highlights Bar**|
+|2. User can scroll through feed||
+|3. User can pull up to retrieve additional images to the feed||
+||4. System load an additional 18 images by user|
+|5. User can tap on a liked image in the feed|
+||6. System displays image in **Display Image Screen**|
 
 ---
 **Use Case #15: Profile Top Bar**
 |Actor(User) Actions |System Reponses|
 |--------------------|---------------|
+||1. System displays user profile image, user name, user description, number of posts made by user, number of followers of user, number of users followed by user, edit profile button
 8. User Profile Screen 
 8.1. Users can view user’s profile image
 8.2. Users can view user’s 150 character profile description
@@ -168,3 +183,21 @@
 8.9. Users can edit own profile screen
 8.10. Users can promote their own stories
 8.11. Users can select story categories
+
+---
+**Use Case #16: Story Highlights Bar**
+|Actor(User) Actions |System Reponses|
+|--------------------|---------------|
+
+
+
+---
+**Use Case #17: Create Story Screen**
+|Actor(User) Actions |System Reponses|
+|--------------------|---------------|
+
+
+---
+**Use Case #18: Edit Profile Screen**
+|Actor(User) Actions |System Reponses|
+|--------------------|---------------|
