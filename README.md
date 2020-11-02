@@ -9,6 +9,6 @@
 2. **[Risk Analysis Table](https://github.com/Android-2020-Project/Documentation/blob/main/risk_analysis_table.md)**
 3. **Use Case Diagram**
 4. **[Use Cases](https://github.com/Android-2020-Project/Documentation/blob/main/use_cases.md)**
-5. **Class Diagram**
+5. **[Class Diagram](https://github.com/Android-2020-Project/Documentation/blob/main/Class%20Diagram.pptx)**
 6. **[Database Diagram](https://github.com/Android-2020-Project/Documentation/blob/main/DatabaseDesign.md)**
 7. **Sequence Diagram**
